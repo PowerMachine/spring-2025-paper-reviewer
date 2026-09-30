@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+*.db
+*.sqlite*
+*.pdf
+*.zip
+*.xlsx
+uploads/
+logs/

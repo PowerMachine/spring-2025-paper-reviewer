@@ -1,0 +1,51 @@
+# 핵심 FastAPI 프레임워크
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# 데이터베이스 (SQLite 기본 지원)
+sqlalchemy==2.0.23
+
+# PostgreSQL + pgvector 지원
+psycopg2-binary==2.9.10
+pgvector==0.4.1
+
+# 웹 인터페이스
+jinja2==3.1.2
+python-multipart==0.0.6
+
+# 데이터 처리
+pydantic==2.5.1
+numpy==1.24.3
+
+# HTTP 요청
+requests==2.31.0
+aiohttp==3.9.1
+httpx==0.25.2
+
+# 웹 스크래핑 (향후 논문 크롤링용)
+beautifulsoup4==4.12.2
+lxml==4.9.3
+
+# 설정 관리
+python-dotenv==1.0.0
+
+# 개발 편의성
+redis==5.0.1
+
+# AI/ML - OpenAI API
+openai==1.45.0
+langchain>=0.1,<0.2
+langchain-openai>=0.1,<0.2
+arxiv>=2,<3
+
+# AI/ML (향후 실제 임베딩 사용시)
+# sentence-transformers==2.2.2
+
+# PDF 처리
+PyPDF2==3.0.1
+pdfplumber==0.10.3
+pymupdf==1.23.8
+
+# 텍스트 처리
+nltk==3.8.1
+spacy==3.7.2
